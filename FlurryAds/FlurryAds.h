@@ -2,7 +2,7 @@
 //  FlurryAds.h
 //  Flurry iOS Analytics Agent
 //
-//  Copyright 2009-2012 Flurry, Inc. All rights reserved.
+//  Copyright 2009-2013 Flurry, Inc. All rights reserved.
 //	
 //	Methods in this header file are for use by Flurry Publishers
 
@@ -26,7 +26,7 @@ typedef enum {
  *  For information on how to use Flurry's Ads SDK to
  *  attract high-quality users and monetize your user base see <a href="http://support.flurry.com/index.php?title=Publishers">Support Center - Publishers</a>.
  *  
- *  @author 2009 - 2012 Flurry, Inc. All Rights Reserved.
+ *  @author 2009 - 2013 Flurry, Inc. All Rights Reserved.
  *  @version 4.2.0
  * 
  */
@@ -201,7 +201,7 @@ typedef enum {
  *
  *  @return YES/NO to indicate if an ad is available.
  */
-+(BOOL) isAdAvailableForSpace:(NSString*)space view:(UIView *)view size:(FlurryAdSize)size timeout:(int64_t)timeout;
++(BOOL) isAdAvailableForSpace:(NSString*)space view:(UIView *)view size:(FlurryAdSize)size timeout:(int64_t)timeout __attribute__ ((deprecated));
 
 /*!
  *  @brief [Deprecated] Display an ad for the given @c space.
@@ -223,7 +223,7 @@ typedef enum {
  *
  *  @return YES/NO to indicate if an ad is available.
  */
-+ (BOOL)showAdForSpace:(NSString*)space view:(UIView *)viewContainer size:(FlurryAdSize)size timeout:(int64_t)timeout;
++ (BOOL)showAdForSpace:(NSString*)space view:(UIView *)viewContainer size:(FlurryAdSize)size timeout:(int64_t)timeout __attribute__ ((deprecated));
 
 /*!
  *  @brief Fetch and Display an ad for the given @c space.

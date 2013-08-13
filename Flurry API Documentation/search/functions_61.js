@@ -13,6 +13,5 @@ var searchData=
   ['appspotjumptapsiteid',['appSpotJumptapSiteID',['../protocol_flurry_ad_delegate-p.html#a320875211530c69c2c4fc99f0f0b729f',1,'FlurryAdDelegate-p']]],
   ['appspotmillennialappkey',['appSpotMillennialAppKey',['../protocol_flurry_ad_delegate-p.html#a8c8a073785f5352c5de473a8ac8f0f81',1,'FlurryAdDelegate-p']]],
   ['appspotmillennialinterstitalappkey',['appSpotMillennialInterstitalAppKey',['../protocol_flurry_ad_delegate-p.html#acded2c10dd666b403851e9d5aa732e13',1,'FlurryAdDelegate-p']]],
-  ['appspotmobclixapplicationid',['appSpotMobclixApplicationID',['../protocol_flurry_ad_delegate-p.html#aa72eff6703fb3abf9054148feaebc291',1,'FlurryAdDelegate-p']]],
-  ['appspotrootviewcontroller',['appSpotRootViewController',['../protocol_flurry_ad_delegate-p.html#a6ca0c9b766aa72705c504e24adbbee57',1,'FlurryAdDelegate-p']]]
+  ['appspotmobclixapplicationid',['appSpotMobclixApplicationID',['../protocol_flurry_ad_delegate-p.html#aa72eff6703fb3abf9054148feaebc291',1,'FlurryAdDelegate-p']]]
 ];
